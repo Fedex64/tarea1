@@ -1,0 +1,15 @@
+1) git add ruta/archivo Agrega el archivo nuevo o modificado al indice. x ej: git add informe.txt
+2)git init: crea un repositorio, primero nos situamos en el directorio del proyecto y luego ejecutamos git init.
+3)git commit:este comando guarda los cambios en el repositorio.
+4)git branch:Este comando nos muestra las ramas existentes y la rama en la que estamos.
+5)git branch (nombre de la rama): esto nos crea una rama con el nombre que queremos apartir de la actual. x ej: git branch (nivel dos)
+6)git branch checkout nombreDeLaRama: nos cambia a la rama que deseemos. x ej: git checkout master.
+7)git status: Muestra el estado de la rama de desarrollo.
+8)git diff : Muestra el las diferencias entre dos commits cualesquiera x ejemplo para la las diferencias entre dos ramas.
+9)git log : Nos muestra un historial de los commits del repositorio.
+10)git merge nombre de la rama:si estamos situados en la rama master combina los cambios en la rama deseada con la rama master. x ej: git merge niveldos combina los cambios entre niveldos y la rama master.
+11)git tag:si dado un punto uno quiere tener un punto del proyecto para siempre se utiliza este comando, es un marcador a un commit especifico. x ej: git tag nombreDelTag
+12)git fetch: se utiliza para sincronizarnos con otro repositorio.
+13)git rm: sirve para borrar archivos de la rama o del indice para que no pueda ser incluido en el proximo commit.
+14)git clone: copia un repositorio en un directorio nuevo.
+15)git mv: sirve para mover o darle un nuevo nombre a un archivo o directorio.
